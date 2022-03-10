@@ -1,6 +1,10 @@
 import discord
+import json
+from discord.ext import commands
 
-TOKEN = "YOUR_TOKEN_GOES_HERE"
+prefix = "!bx"
+
+TOKEN = "Your-Bot-Token-Goes-Here"
 
 client = discord.Client()
 
@@ -13,7 +17,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith('!hello'):
+    if message.content.startswith('!bx Hello'):
         await message.channel.send('Hello there!')
 
 client.run(TOKEN)
