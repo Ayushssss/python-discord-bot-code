@@ -2,7 +2,7 @@
 A bot-code By Ayushssss subscribe my channel https://youtube.com/channel/UCnKy26hrA59dfEawPb0OWeQ
 
 # Requirements
-repl in replit.com
+```repl in replit.com```
 
 # installation
 • ```click on code and copy the given link```
