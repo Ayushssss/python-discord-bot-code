@@ -5,8 +5,8 @@ A bot-code By Ayushssss subscribe my channel https://youtube.com/channel/UCnKy26
 repl in replit.com
 
 # installation
-• ~click on code and copy the given link~
+• click on code and copy the given link
 
-• ~and go to replit and create repl, import from github and paste the link~
+• and go to replit and create repl, import from github and paste the link
 
-• ~and paste your bot TOKEN~
+• and paste your bot TOKEN
