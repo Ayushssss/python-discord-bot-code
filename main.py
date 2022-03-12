@@ -19,6 +19,14 @@ async def on_message(message):
 
     if message.content.startswith('!bx Hello'):
         await message.channel.send('Hello there!')
+        
+@client.event
+async def on_message(message):
+    if message.author == client.user:
+        return
+    
+    if message.content.startswith('!bx Bye'):
+        await message.channel.send('BYE') 
 
 client.run(TOKEN)
 
