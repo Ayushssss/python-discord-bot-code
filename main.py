@@ -10,6 +10,7 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
+    await client.change_presence(activity=discord.Game(name= 'BLUExVENOM on YouTube'))
     print("{0.user} is now online!".format(client))
 
 @client.event
